@@ -12,6 +12,10 @@ public class VariableExercise extends OpMode {
         double motorSpeed = 0.5;
         boolean touchSensor = false;
         int motorAngle = 90;
+
+        telemetry.addData("Team Number", teamNumber);
+        telemetry.addData("motor speed", motorSpeed);
+        telemetry.addData("touch sensor", touchSensor);
     }
 
     @Override
